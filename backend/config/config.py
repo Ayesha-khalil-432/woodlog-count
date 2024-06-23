@@ -2,7 +2,8 @@ from dotenv import load_dotenv
 import os
 from datetime import timedelta
 
-load_dotenv(f"{os.getcwd()}/.env")
+# load_dotenv(f"{os.getcwd()}/.env")
+load_dotenv("/home/woodlogcount/woodlog-count/.env")
 
 config = {
     "apiKey": os.getenv("apiKey"),

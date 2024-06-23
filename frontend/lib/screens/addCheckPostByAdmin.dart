@@ -118,8 +118,8 @@ class _CheckPostAddingScreenState extends State<CheckPostAddingScreen> {
         'name': _nameController.text,
         'description': _descriptionController.text,
         'location': _locationController.text,
-        'latitude': _latitudeController.text,
-        'longitude': _longitudeController.text,
+        'latitude': _latitudeController.text ?? '',
+        'longitude': _longitudeController.text ?? '',
         'list_of_check_post_officer': _selectedOfficers,
       });
       print('body: ' + body);
